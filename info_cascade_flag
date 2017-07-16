@@ -1,0 +1,10 @@
+
+
+    cv2.cv.CV_HAAR_SCALE_IMAGE: Scales each windowed image region to match the feature data. (The default approach is the opposite: scale the feature data to match the window.) Scaling the image allows for certain optimizations on modern hardware. This flag must not be combined with others.
+
+    cv2.cv.CV_HAAR_DO_CANNY_PRUNING: Eagerly rejects regions that contain too many or too few edges to match the object type. This flag should not be combined with cv2.cv.CV_HAAR_FIND_BIGGEST_ OBJECT.
+
+    cv2.cv.CV_HAAR_FIND_BIGGEST_OBJECT: Accepts, at most, one match (the biggest).
+
+    cv2.cv.CV_HAAR_FIND_BIGGEST_OBJECT | cv2.cv.HAAR_DO_ ROUGH SEARCH: Accepts, at most, one match (the biggest) and skips some steps that would refine (shrink) the region of this match. The minNeighbors argument should be greater than 0.
+
